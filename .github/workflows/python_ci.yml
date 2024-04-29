@@ -30,4 +30,4 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest tests/  # Correct path to the tests directory
+        pytest tests/ -vv  # Correct path to the tests directory and adding verbosity
