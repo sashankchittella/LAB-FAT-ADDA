@@ -20,5 +20,8 @@ The workflow file should include the following components:
 
 **Note:** we can Customise it futher using other Linters like pyLint
 
-**Step 5: Docker Integrations**
-**Step 6: Testing and Iterations**
+**Step 5:Testing and Iterations**
+
+--> so in the step 3: work flow should be created in such a way the "/tests/test_1.py" inside the .py write the test codes 
+--> now add the path of this tests/ in the yml file so the pyTest will run all the test files in the directory
+--> Note: __init__.py is mandatory to create in the tests/ directory
