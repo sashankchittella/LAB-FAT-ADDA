@@ -32,7 +32,7 @@ jobs:
         flake8 . --count --exit-zero --max-complexity=10 --max-line-length=127 --statistics
     - name: Test with pytest
       run: |
-        pytest tests/test_1.py # Adjust this line to point to your tests directory
+        pytest LAB-FAT-ADDA/tests/test_1.py # Adjust this line to point to your tests directory
     - name: Test with pytest
       run: |
         pytest -vv tests/
