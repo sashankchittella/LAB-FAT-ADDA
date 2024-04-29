@@ -1,5 +1,5 @@
-def Test_2():
+def test_2():
     print("test successful")
 
 
-print(Test_2())
+print(test_2())
