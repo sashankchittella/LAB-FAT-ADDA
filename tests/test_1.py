@@ -1,5 +1,5 @@
-def test_1():
-    print("Test 1")
+# test_1.py
 
-
-print(test_1())
+def test_example_one():
+    # Example assertion, replace with your actual test logic
+    assert 1 == 1, "Test should pass when both sides are equal"
